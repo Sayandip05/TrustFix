@@ -1,0 +1,37 @@
+# Testing Dependencies for TrustFix
+
+# Core Testing
+pytest==7.4.3
+pytest-django==4.7.0
+pytest-asyncio==0.23.2
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Django Testing
+django-test-plus==2.2.2
+factory-boy==3.3.0
+faker==22.0.0
+
+# WebSocket Testing
+channels-testing==0.2.0
+pytest-asyncio==0.23.2
+
+# Celery Testing
+celery[redis]==5.3.4
+pytest-celery==0.0.0
+
+# API Testing
+requests-mock==1.11.0
+
+# Coverage
+coverage==7.4.0
+coverage[toml]==7.4.0
+
+# Code Quality
+flake8==7.0.0
+black==23.12.1
+isort==5.13.2
+mypy==1.8.0
+
+# Performance Testing (Optional)
+locust==2.20.0
